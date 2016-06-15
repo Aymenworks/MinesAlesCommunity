@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (3.4.0)
+  - Argo (3.0.1)
+  - Curry (2.2.0)
+  - GLCalendarView (1.0.3)
+  - Log (0.5)
+  - ParkedTextField (0.2.1)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxDataSources (0.8.1):
+    - RxCocoa (~> 2.2)
+    - RxSwift (~> 2.2)
+  - RxSwift (2.5.0)
+  - Spring (1.0.3)
+  - Swinject (1.1.2)
+  - UITextView+Placeholder (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Argo
+  - Curry
+  - GLCalendarView (~> 1.0.0)
+  - Log
+  - ParkedTextField
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - Swinject (~> 1.1.0)
+  - UITextView+Placeholder (~> 1.2)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Argo: 22c5d62b7967020a641468c91dc9488bea9523b8
+  Curry: c22d80fff7f5a4b1bbd531455c3e2dbb099658a3
+  GLCalendarView: f3a71aca59f456b81abad9667dc5985c46810996
+  Log: 5972312cb85cffbc56407b612936b610eb4af8a5
+  ParkedTextField: 72d02a5fdadc089ff25efac04ea21dcc5a2467d3
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxDataSources: 4a87345847d66ef84ecc10bdfa189190f3cd6b12
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  Swinject: 3debc5ac926dcd1be00947265a9db7a5f31b272a
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+COCOAPODS: 0.38.2

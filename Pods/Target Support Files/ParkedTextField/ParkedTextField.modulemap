@@ -1,6 +1,0 @@
-framework module ParkedTextField {
-  umbrella header "ParkedTextField-umbrella.h"
-
-  export *
-  module * { export * }
-}

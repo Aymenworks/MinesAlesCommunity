@@ -3,16 +3,16 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'EMA' do
-pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
 pod 'ParkedTextField'
-pod 'RxSwift'
 pod 'RxDataSources'
-pod 'Swinject', '~> 1.1.0'
+pod 'Swinject', '2.0.0-beta.2'
 pod 'Argo'
-pod 'RxCocoa'
 pod 'Alamofire'
 pod 'Curry'
 pod 'Log'
 pod 'UITextView+Placeholder', '~> 1.2'
-end
+pod 'RxSwift', '~> 3.0.0-beta.1'
+pod 'RxCocoa', '~> 3.0.0-beta.1'
 
+end

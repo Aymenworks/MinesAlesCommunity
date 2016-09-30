@@ -14,7 +14,7 @@ extension SwinjectStoryboard {
 
     // MARK: - Lost Object -
 
-    defaultContainer.register(LostObjectAPI.self) { _ in LostObjectNetwork() }
+    defaultContainer.register(LostObjectAPI.self) { _ in LostObjectStub() }
   
     defaultContainer.register(LostObjectViewModel.self) { r in
       let viewModel = LostObjectViewModel(service: r.resolve(LostObjectAPI.self)!)
@@ -27,7 +27,7 @@ extension SwinjectStoryboard {
     
     // MARK: - Login -
     
-    defaultContainer.register(LoginAPI.self) { _ in LoginNetwork() }
+    defaultContainer.register(LoginAPI.self) { _ in LoginStub() }
    
     defaultContainer.register(LoginViewModel.self) { r in
       let viewModel = LoginViewModel(service: r.resolve(LoginAPI.self)!)
@@ -40,7 +40,7 @@ extension SwinjectStoryboard {
 
     // MARK: - Profile -
     
-    defaultContainer.register(ProfileAPI.self) { _ in ProfileNetwork() }
+    defaultContainer.register(ProfileAPI.self) { _ in ProfileStub() }
     
     defaultContainer.register(ProfileViewModel.self) { r in
       let viewModel = ProfileViewModel(service : r.resolve(ProfileAPI.self)!)
@@ -53,7 +53,7 @@ extension SwinjectStoryboard {
     
     // MARK: - Event -
     
-    defaultContainer.register(EventAPI.self) { _ in EventNetwork() }
+    defaultContainer.register(EventAPI.self) { _ in EventStub() }
     
     defaultContainer.register(EventViewModel.self) { r in
       let viewModel = EventViewModel(service: r.resolve(EventAPI.self)!)
@@ -66,7 +66,7 @@ extension SwinjectStoryboard {
     
     // MARK: - Advertisement -
     
-    defaultContainer.register(AdvertismentAPI.self) { _ in AdvertismentNetwork() }
+    defaultContainer.register(AdvertismentAPI.self) { _ in AdvertismentStub() }
     
     defaultContainer.register(AdvertismentViewModel.self) { r in
       let viewModel = AdvertismentViewModel(service: r.resolve(AdvertismentAPI.self)!)
@@ -79,7 +79,7 @@ extension SwinjectStoryboard {
     
     // MARK: - Car Pooling -
     
-    defaultContainer.register(CarPoolingAPI.self) { _ in CarPoolingNetwork() }
+    defaultContainer.register(CarPoolingAPI.self) { _ in CarPoolingStub() }
     
     defaultContainer.register(CarPoolingViewModel.self) { r in
       let viewModel = CarPoolingViewModel(service: r.resolve(CarPoolingAPI.self)!)

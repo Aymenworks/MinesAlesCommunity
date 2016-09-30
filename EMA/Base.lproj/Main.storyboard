@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gBM-1V-JxF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gBM-1V-JxF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -1400,8 +1400,8 @@
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="MJN-nq-vgy"/>
                                                             <exclude reference="HQr-4c-DwM"/>
+                                                            <exclude reference="MJN-nq-vgy"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -3154,8 +3154,8 @@
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="eaO-HX-LpM"/>
                                                 <exclude reference="0DA-Oh-8lE"/>
+                                                <exclude reference="eaO-HX-LpM"/>
                                             </mask>
                                         </variation>
                                     </label>
@@ -3174,8 +3174,8 @@
                                         </state>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="mzg-uJ-Cmt"/>
                                                 <exclude reference="76C-bd-EGz"/>
+                                                <exclude reference="mzg-uJ-Cmt"/>
                                                 <exclude reference="oI5-zd-hht"/>
                                             </mask>
                                         </variation>
@@ -3204,9 +3204,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="yNf-1J-tHG"/>
                                         <exclude reference="Ujg-ff-yfJ"/>
                                         <exclude reference="WuD-xC-FVQ"/>
+                                        <exclude reference="yNf-1J-tHG"/>
                                         <exclude reference="2Id-DX-ukf"/>
                                         <exclude reference="7aq-Th-fvQ"/>
                                     </mask>
@@ -3336,11 +3336,11 @@
                                         </userDefinedRuntimeAttributes>
                                         <variation key="default">
                                             <mask key="constraints">
+                                                <exclude reference="PmU-DI-hVh"/>
+                                                <exclude reference="cor-Xw-dID"/>
                                                 <exclude reference="lg8-uc-U7f"/>
                                                 <exclude reference="nya-PG-UEv"/>
                                                 <exclude reference="pHF-sr-Tka"/>
-                                                <exclude reference="cor-Xw-dID"/>
-                                                <exclude reference="PmU-DI-hVh"/>
                                             </mask>
                                         </variation>
                                     </button>

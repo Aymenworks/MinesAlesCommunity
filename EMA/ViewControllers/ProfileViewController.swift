@@ -11,7 +11,7 @@ import RxSwift
 import Argo
 import Curry
 
-enum ProfileNavigationFilter: Int {
+enum ProfileNavigationFilter {
   case Event, CarPooling, Advertisment, LostObject
 }
 

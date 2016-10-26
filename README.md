@@ -12,7 +12,8 @@ Because of a lot of emails from students of different kind, such as car sharing,
 create an iOS and web app for our school students ( more or less 1000 students ) whichi allow people to find everything 
 they are looking for in one organized app.
 
-The website is not currently hosted anywhere than local.
+__The website is not currently hosted anywhere than local.__
+
 
 # Author ( iOS app and design )
 
